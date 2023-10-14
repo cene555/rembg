@@ -66,7 +66,6 @@ class U2netSession(BaseSession):
             else "md5:60024c5c889badc19c04ad937298a77b",
             fname=fname,
             path=cls.u2net_home(*args, **kwargs),
-            progressbar=True,
         )
 
         return os.path.join(cls.u2net_home(*args, **kwargs), fname)
